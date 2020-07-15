@@ -1,0 +1,276 @@
+/* Custom Style Sheet */
+/* Writing */
+h2 {
+    color: #181174 !important;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family:'Roboto', sans-serif;;
+}
+h5 {    
+    text-transform: capitalize;    
+    font-weight: bold;
+    font-family:'Roboto', sans-serif;;
+
+}
+p {
+    font-family: 'Rubik', sans-serif;
+
+}
+/* Spacing */
+.gap100 {
+    padding: 75px 0px;
+}
+.gap45 {
+    padding: 45px 0px;
+}
+
+/* Nav Bar Decoration*/
+.mynav {
+    background:#ffffff !important
+}
+.trn {
+    background:transparent!important;
+    z-index: 101;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:blue !important;
+    /*text-shadow: 3px 3px 5px #777777;*/
+    margin-left: 45px;
+    margin-top: -5px;    
+}
+
+.mynav a {
+    margin-right: 30px;
+    color: #181174 !important;
+    border-bottom: 2px transparent
+    
+}
+.mynav a:hover {   
+    
+    border-bottom: 2px solid blue
+}
+.trn a {
+    margin-right: 30px;
+    color: #fff !important;
+    border-bottom: 2px transparent
+    
+}
+.trn a:hover {   
+    
+    border-bottom: 2px solid #fff
+}
+.Homeactive a {
+    border-bottom: 2px solid #fff
+}
+.active a {
+    border-bottom: 2px solid #181174
+}
+.menu-right a {
+   
+    background: #181174;
+    color: #fff !important;
+    border-radius: 50px;
+    padding: 10px 25px !important;
+    /*box-shadow: 3px 3px 5px; */  
+    
+}
+.menu-right a:hover {
+   
+    background: blue;
+    box-shadow: none;
+    border-bottom: 2px solid transparent;   
+    
+} 
+.navbar-brand:hover {
+    margin-left: 10px;
+    border-bottom: 2px solid transparent !important;
+}
+
+@media only screen and (max-width: 1140px) {
+    .navbar-brand {
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .menu-right a {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width:430px) {
+    .collapsed {
+        margin-left: 110%;
+        
+    }
+    .navbar-brand {
+        font-size: 20px;        
+        margin-top: 0px;
+    }
+}
+
+.carousel-caption {
+    top: 40%;
+    bottom: auto;
+    padding-bottom: 500px;    
+}
+
+    .img-carousel { min-width: 800px;}
+
+@media only screen and (max-width: 768px) { 
+    .carousel .carousel-inner .item {
+        min-height: 500px;
+    }
+}
+@media only screen and (max-width: 970px) {
+    .trn {
+        background: transparent !important;       
+
+    }
+    .trn a {
+        color: #181174 !important;
+
+    }  
+    .collapsed {        
+        background: #fff;
+    }    
+
+}
+@media only screen and (max-width: 750px) {
+    .trn {
+        background: #ffffff !important;       
+
+    }
+    .trn a {
+        color: #181174 !important;
+
+    }      
+
+}
+
+/* Page Header */
+#pheader {
+    background-image: linear-gradient(blue, #181174);
+}
+.h2b {
+    color: whitesmoke !important;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family:'Roboto', sans-serif;
+    margin: 50px 0px;
+}
+.breadc {
+    color: whitesmoke;
+    padding-top: 57px;
+}
+.breadc a {
+    color: whitesmoke;; 
+}
+.h2 {
+    margin-top: 25px;
+}
+
+/* Slider Section*/
+.bd-example {
+    margin-top: -103px;
+}
+.carousel-caption {  
+    top: 20%;  
+    margin-bottom: 100px;    
+    padding: 50px 100px;
+    border-radius: 150px;
+    width: 50%
+}
+.carousel-caption h5{
+    font-size:50px;
+    color: whitesmoke;        
+    text-transform: uppercase;
+}
+.carousel-caption p{
+    font-size:20px;
+    color: whitesmoke;   
+}
+
+.drk:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#000;
+    opacity: 0.5;
+
+}
+@media only screen and (max-width: 1500px) {
+    .carousel-caption{
+        margin-bottom: 10%;
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .carousel-caption{
+        margin-bottom: 5%;
+        width: 70%;
+        
+    }
+    .carousel-caption h5{
+        font-size:30px;              
+        text-transform: capitalize;
+    }
+    .carousel-caption p{
+        font-size:16px;              
+        text-transform: capitalize;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .carousel-caption{
+        margin-bottom: 0%;       
+        
+    }
+}    
+/* Buttons */
+
+.btn-primary {
+    
+background:#181174;
+border-color:transparent !important;
+border-radius: 50px;
+padding: 10px 25px !important; 
+}
+
+/* Footer */
+footer {
+    background: rgb(54, 51, 51);
+    color: #fff;
+    padding: 25px;
+}
+.copy {
+    padding-top: 27px
+}
+.socmed {
+    font-size: 35px;
+    margin: 0px;
+    padding-top: 10px;
+}
+/* Colored Sections */
+
+.red {
+background: rgb(129, 8, 8);
+color: whitesmoke;
+}
+.red a {
+    color: whitesmoke;
+}
+
+
+
+
+
+
