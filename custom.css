@@ -24,6 +24,9 @@ p {
 .gap45 {
     padding: 45px 0px;
 }
+.gap10 {
+    padding: 5px 0px;
+}
 
 /* Nav Bar Decoration*/
 .mynav {
@@ -151,6 +154,11 @@ p {
     }      
 
 }
+/* Background Decorations */
+
+.bckgrd {
+    margin-top: -101px;
+}
 
 /* Page Header */
 #pheader {
@@ -261,11 +269,11 @@ footer {
 }
 /* Colored Sections */
 
-.red {
-background: rgb(129, 8, 8);
+.blue {
+background-image: linear-gradient(blue, #181118);
 color: whitesmoke;
 }
-.red a {
+.blue a {
     color: whitesmoke;
 }
 
